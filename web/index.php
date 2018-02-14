@@ -27,6 +27,18 @@ Hello
     <br>
     <input type="submit" value="Submit">
     <input type="reset" value="Clear">
+    <p><label for="my-checkbox">checkbox:</label>
+      <input id="my-checkbox" name="my-checkbox" type="checkbox" checked></p>
+    <p><label for ="my-select">select: </label><select id="my-select" name="my-select" size="1" required>
+        <option value="">------------</option>
+        <option value="1">Первая</option>
+        <option value="2" selected>Вторая</option>
+      </select>
+    </p>
+    <p><label for ="my-color">Цвет: </label><input id="my-color" name="my-color" type="color"></p>
+
+    <p><label for="my-date">Дата: </label><input id="my-date" name="my-date" type="date" required></p>
+    <p><label for="my-month" >Месяц: </label><input id="my-month" name="my-month" type="month" required></p>
   </form>
 
   <?php } ?>
