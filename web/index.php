@@ -23,7 +23,7 @@ Hello
   
   <h1>Play with the HTML form</h1>
   <form action="/index.php">
-    <div style="border: 2px solid red;">
+    <div style="border: 2px solid red background-color: yellow;">
       <input type="hidden" name="submitted" value="yes">
     <p>
       <label for="my-radio-yes">radio Yes: </label>
@@ -33,7 +33,6 @@ Hello
     <br>
     <input type="submit" value="Submit">
     <input type="reset" value="Clear">
-    </div>
     <p><label for="my-checkbox">checkbox:</label>
       <input id="my-checkbox" name="my-checkbox" type="checkbox" checked></p>
     <p><label for ="my-select">select: </label><select id="my-select" name="my-select" size="1" required>
