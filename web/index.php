@@ -36,7 +36,6 @@ Hello
       </select>
     </p>
     <p><label for ="my-color">Цвет: </label><input id="my-color" name="my-color" type="color"></p>
-
     <p><label for="my-date">Дата: </label><input id="my-date" name="my-date" type="date" required></p>
     <p><label for="my-month" >Месяц: </label><input id="my-month" name="my-month" type="month" required></p>
   </form>
